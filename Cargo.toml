@@ -164,6 +164,11 @@ name = "json"
 path = "benches/json.rs"
 harness = false
 
+[[bench]]
+name = "count"
+path = "benches/count.rs"
+harness = false
+
 [[example]]
 name = "json"
 required-features = ["alloc"]
